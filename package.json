@@ -1,0 +1,24 @@
+{
+  "name": "@udock/vue-plugin-data--storage",
+  "description": "@udock/vue-plugin-data--storage",
+  "private": true,
+  "version": "0.1.0",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist",
+    "lib"
+  ],
+  "scripts": {
+    "build": "udock-build-tools rollup"
+  },
+  "peerDependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "@udock/build-tools": "^0.1.0"
+  },
+  "dependencies": {
+    "mitt": "^1.2.0"
+  }
+}
